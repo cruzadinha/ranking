@@ -14,4 +14,51 @@
     }
 
     .iframe-container {
-      width
+      width: 100%;
+      border: none;
+      margin-bottom: 16px;
+    }
+
+    .flippity {
+      height: 55vh;
+    }
+
+    .cruzadinha {
+      height: 85vh;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    @media (max-width: 768px) {
+      .flippity {
+        height: 40vh;
+      }
+
+      .cruzadinha {
+        height: 70vh;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="iframe-container flippity">
+    <iframe
+      src="https://www.flippity.net/v2/lb.php?k=e/2PACX-1vQS2C53M1WpslOTqjteEtpeAuZLBotSNlYUKmXpbtt19PjAPcXC9iQ6a_OvJct_naVlDJSFUH9Mfy-f"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <div class="iframe-container cruzadinha">
+    <iframe
+      src="https://cruzadinha.home.blog"
+      loading="lazy">
+    </iframe>
+  </div>
+
+</body>
+</html>
